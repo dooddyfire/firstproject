@@ -1,0 +1,17 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="O5mU3,1(CNN)b3x6nmiR">a</variable><variable id="6=)EkG#m^|TTg=:;74|-">mySprite</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="game_dialog_set_frame"><value name="frame"><shadow type="dialog_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . 
+. . . . . . . 3 . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+`</field></shadow></value><next><block type="gamesetbackgroundcolor"><value name="color"><shadow type="colorindexpicker"><field name="index">3</field></shadow></value><next><block type="variables_set"><field name="VAR" id="O5mU3,1(CNN)b3x6nmiR">a</field><value name="VALUE"><shadow type="math_number"><field name="NUM">12</field></shadow><block type="gameaskfornumber"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="message"><shadow type="text"><field name="TEXT"/></shadow></value></block></value><next><block type="controls_if"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="O5mU3,1(CNN)b3x6nmiR">a</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="gameSplash"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="title"><shadow type="text"><field name="TEXT">Hello Yeti App</field></shadow></value><value name="subtitle"><shadow type="text"><field name="TEXT">Yeti App</field></shadow><block type="variable_to_text"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get"><field name="VAR" id="O5mU3,1(CNN)b3x6nmiR">a</field></block></value></block></value></block></statement><statement name="ELSE"><block type="gameSplash"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="title"><shadow type="text"><field name="TEXT">Hello</field></shadow></value><value name="subtitle"><shadow type="text"><field name="TEXT">Happy Console</field></shadow></value></block></statement></block></next></block></next></block></next></block></statement></block><block type="logic_compare" disabled="true" x="256" y="489"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow></value></block></xml>
